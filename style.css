@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .about, .contact {
+    margin: 30px auto;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 15px;
+    border: 3px solid #333;
+    transition: transform 0.5s ease;
+  }
+  
+  .profile-pic:hover {
+    transform: rotate(360deg);
+  }
+  
+  input, textarea, button {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  body {
+    cursor: url('https://i.imgur.com/0KFBHTB.png') 16 16, auto;
+  }
+  
+  
+  
